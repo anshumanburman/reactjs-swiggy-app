@@ -1,0 +1,178 @@
+.cBox {
+    background-color: burlywood;
+    height: 100vh;
+}
+.hm-lft {
+    height: 100vh;
+    background-color: white;
+}
+.hm-rght {
+    height: 100vh;
+    background-color: brown;
+    background-image: url('https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_1340/Lunch1_vlksgq');
+    background-repeat: no-repeat;
+  background-size: cover;
+    
+}
+.lg-logo {
+    background-image: url('https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_1340/Lunch1_vlksgq');
+    background-repeat: no-repeat;
+    background-size: 300px 100px;
+}
+.swgy-logo {
+
+    /* height: 125px;
+    width: 200px;
+    transition: transform .3s cubic-bezier(.23,1,.32,1) 0ms; */
+    /* position: absolute; */
+     /* height: 150px; */
+     fill: #fc8019;
+    /* /* left: 0;
+    top: 0; */
+    /* opacity: 1; */
+    /* margin-top: 92px;
+    -ms-transform: scale(1.5);
+    transform: scale(1.5); */
+
+}
+.sgn-btn{
+    
+    border-radius: 0px;
+    background-color: black;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    padding: 0 2rem;
+    letter-spacing: 0;
+    box-shadow: rgba(0, 0, 0, .12);
+    font-size: 16px;
+    font-weight: 600;
+    height: 40px;
+    width: auto;
+}
+.lgn-btn{
+    /* text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    
+     */
+    padding: 0 2rem;
+    border: none;
+    color: #000;
+    letter-spacing: 0;
+    font-size: 16px;
+    font-weight: 600;
+    height: 40px;
+    line-height: 40px;
+    width: auto;
+}
+.lgn-btn:hover {
+    color :#fc8019;
+}
+.lgn-searchbg {
+    background-color: yellowgreen;
+    height: 60vh;
+    }
+.bg1{
+        background-color: yellowgreen;
+    }
+.input-container {
+background-color: aqua;
+/* height: 40px; */
+border: 2px solid #fc8019;
+border-right-color: transparent;
+border-right-width: 0px;
+margin: 2px;
+/* padding: 0px 0px 20px 20px; */
+    }
+.lgn-txtInput {
+    padding: 10px 15px;
+    font-size: 18;
+    font-weight: 500;
+    border: none;
+flex: auto;    /* width: 70%; */
+box-shadow: transparent;
+} 
+.lgn-findFood {
+    border-radius: 0px;
+    background-color: #fc8019;
+    border: none;
+    text-decoration: solid;
+    display: inline-table;
+    text-align: center;
+    padding: 0 2rem;
+    letter-spacing: 0;
+    box-shadow: rgba(0, 0, 0, .12);
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    /* height: 40px; */
+    /* width: fit-content; */
+}
+.lgn-locateme {
+    border: none;
+    color: #fc8019;
+    font-size: 14px;
+    display:inline;
+
+}
+p{
+    color: #666666;
+}
+.lgn-loc-container {
+
+}
+/* Slider */
+#textSlider.row {
+	/* position: relative; */
+	/* top: 50%; */
+	/* left: 60%; */
+	transform: translate(-50%, -50%);
+	width: 100% !important;
+}
+#textSlider div {
+	color: #FFF;
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+}
+
+
+.slideCol {
+	text-align: left;
+    overflow: hidden;
+	font-weight: 500;
+	font-size:40pt;
+	display: block;
+	white-space: nowrap;
+}
+.slideCol p { margin: 0px !important; }
+
+.scroller {
+   height: 50pt;
+   line-height: 50pt;
+   overflow: hidden;
+}
+.scroller .inner { animation: 10s normal infinite running scroll; }
+@keyframes scroll {
+   0%  	{margin-top: 0px;}
+   15% 	{margin-top: 0px;}
+
+   25%  {margin-top: -50pt;}
+   40%  {margin-top: -50pt;}
+   
+   50%  {margin-top: -100pt;}
+   65%  {margin-top: -100pt;}
+
+   75%  {margin-top: -150pt;}
+   90%  {margin-top: -150pt;}
+
+   100% {margin-top: 0px;}
+}
+
+.dash {
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+}
