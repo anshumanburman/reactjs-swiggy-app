@@ -23,8 +23,8 @@ const Login = ({ history }) => {
 
                 </div>
             </div>
-            <div className="ml-5 mr-5">
-                <div id="textSlider" className="row ml-5 mr-5">
+            {/* <div className="ml-5 mr-5">
+                <div id="textSlider" className="ml-5 mr-5">
                     <div className="slideCol">
                         <div className="scroller">
                             <div className="inner">
@@ -36,7 +36,29 @@ const Login = ({ history }) => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
+            <div id="slider" className="ml-5 mt-5 mr-5">
+      <div className="container1">
+        <div className="slide">
+          <h3>Slide 1</h3>
+        </div>
+        <div className="slide">
+          <h3>Slide 2</h3>
+        </div>
+        <div className="slide">
+          <h3>Slide 3</h3>
+        </div>
+        <div className="slide">
+          <h3>Slide 4</h3>
+        </div>
+        <div className="slide">
+          <h3>Slide 5</h3>
+        </div>
+        <div className="slide">
+          <h3>Slide 6</h3>
+        </div>
+      </div>
+    </div>
             <div className="ml-5 mr-5"><h3>Order food from favourite restaurants near you.</h3></div>
             <div className="ml-5 mr-5 lgn-searchbg">
                 <div className="input-container" style={{ justifyContent: "center", display: "flex" }}>
